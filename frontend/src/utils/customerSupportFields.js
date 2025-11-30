@@ -1,0 +1,38 @@
+export const customerSupportFields = [
+    {
+        labelText: "Name",
+        labelFor: "Name",
+        id: "username",
+        name: "username",
+        type: "text",
+        autoComplete: "username",
+        placeholder: "Username",
+    },
+    {
+        labelText: "Email address",
+        labelFor: "email",
+        id: "email",
+        name: "email",
+        type: "email",
+        autoComplete: "email",
+        placeholder: "Email address",
+    },
+    {
+        labelText: "Subject",
+        labelFor: "subject",
+        id: "subject",
+        name: "subject",
+        type: "subject",
+        autoComplete: "subject",
+        placeholder: "Subject",
+    },
+    {
+        labelText: "Descripition",
+        labelFor: "descripition",
+        id: "description",
+        name: "description",
+        type: "textarea",
+        autoComplete: "description",
+        placeholder: "Enter the Problem....",
+    },
+]

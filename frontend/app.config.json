@@ -1,0 +1,10 @@
+{
+    "apps" : [
+      {
+        "name"      : "frontend",
+        "script"    : "npm",
+        "interpreter": "none",
+        "args": "serve -s build -p 3000"
+      }
+    ]
+  }

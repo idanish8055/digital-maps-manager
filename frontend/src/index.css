@@ -1,0 +1,423 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,::before,::after {
+  border-color: #d5d5d5;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Color palette Changes */
+
+.bg-primary {
+  background: var(--primary);
+}
+
+.bg-primary-100 {
+  background: var(--primary);
+  opacity: 0.1;
+}
+
+.bg-primary-200 {
+  background: var(--primary);
+  opacity: 0.2;
+}
+
+.bg-primary-300 {
+  background: var(--primary);
+  opacity: 0.3;
+}
+
+.bg-primary-400 {
+  background: var(--primary);
+  opacity: 0.4;
+}
+
+.bg-primary-500 {
+  background: var(--primary);
+  opacity: 0.5;
+}
+
+.bg-primary-600 {
+  background: var(--primary) !important;
+  opacity: 0.6;
+}
+
+.bg-primary-700 {
+  background: var(--primary);
+  opacity: 0.7;
+}
+
+.bg-primary-800 {
+  background: var(--primary);
+  opacity: 0.8;
+}
+
+.bg-primary-900 {
+  background: var(--primary);
+  opacity: 0.9;
+}
+
+.bg-whiteLinen-100 {
+  background: var(--white-linen);
+  opacity: 0.1;
+}
+
+.bg-whiteLinen-200 {
+  background: var(--white-linen);
+  opacity: 0.2;
+}
+
+.bg-whiteLinen-300 {
+  background: var(--white-linen);
+  opacity: 0.3;
+}
+
+.bg-whiteLinen-400 {
+  background: var(--white-linen);
+  opacity: 0.4;
+}
+
+.bg-whiteLinen-500 {
+  background: var(--white-linen);
+  opacity: 0.5;
+}
+
+.bg-whiteLinen-600 {
+  background: var(--white-linen);
+  opacity: 0.6;
+}
+
+.bg-whiteLinen-700 {
+  background: var(--white-linen);
+  opacity: 0.7;
+}
+
+.bg-whiteLinen-800 {
+  background: var(--white-linen);
+  opacity: 0.8;
+}
+
+.bg-whiteLinen-900 {
+  background: var(--white-linen);
+  opacity: 0.9;
+}
+
+.bg-whiteLinen {
+  background: var(--white-linen);
+}
+
+.bg-lightAlmond {
+  background-color: var(--lightAlmond);
+}
+
+.hover\:bg-primary-100:hover {
+  background-color: var(--primary) !important;
+  opacity: 0.1;
+}
+
+.hover\:bg-primary-200:hover {
+  background-color: var(--primary) !important;
+  opacity: 0.2;
+}
+
+.hover\:bg-primary-300:hover {
+  background-color: var(--primary) !important;
+  opacity: 0.3;
+}
+
+.hover\:bg-primary-400:hover {
+  background-color: var(--primary) !important;
+  opacity: 0.4;
+}
+
+.hover\:bg-primary-500:hover {
+  background-color: var(--primary) !important;
+  opacity: 0.5;
+}
+
+.hover\:bg-primary-600:hover {
+  background-color: var(--primary) !important;
+  opacity: 0.6;
+}
+
+.hover\:bg-primary-700:hover {
+  background-color: var(--primary) !important;
+  opacity: 0.7;
+}
+
+.hover\:bg-primary-800:hover {
+  background-color: var(--primary) !important;
+  opacity: 0.8;
+}
+
+.hover\:bg-primary-900:hover {
+  background-color: var(--primary) !important;
+  opacity: 0.9;
+}
+
+button.bg-primary-600{
+  background: var(--primary);
+  opacity: 1;
+}
+/* .bg-violet-500\/50 {npm
+  background: var(--primary);
+  opacity: 0.5;
+} */
+
+.focus\:ring-primary-500:focus {
+  border-color: var(--primary) !important;
+}
+.focus\:ring-primary-500:focus{
+  --tw-ring-color: (var(--primary) / var(--tw-ring-opacity)) !important;
+}
+
+.text-primary-100,
+.text-primary-200,
+.text-primary-300,
+.text-primary-400,
+.text-primary-500,
+.text-primary-600,
+.text-primary-700,
+.text-primary-800,
+.text-primary-900 {
+  color: var(--primary);
+  /* opacity: 0.1; */
+}
+
+
+.hover\:text-primary-100:hover {
+  color: var(--primary) !important;
+  opacity: 0.1;
+}
+
+.hover\:text-primary-200:hover {
+  color: var(--primary) !important;
+  opacity: 0.2;
+}
+
+.hover\:text-primary-300:hover {
+  color: var(--primary) !important;
+  opacity: 0.3;
+}
+
+.hover\:text-primary-400:hover {
+  color: var(--primary) !important;
+  opacity: 0.4;
+}
+
+.hover\:text-primary-500:hover {
+  color: var(--primary) !important;
+  opacity: 0.5;
+}
+
+.hover\:text-primary-600:hover {
+  color: var(--primary) !important;
+  opacity: 0.6;
+}
+
+.hover\:text-primary-700:hover {
+  color: var(--primary) !important;
+  opacity: 0.7;
+}
+
+.hover\:text-primary-800:hover {
+  color: var(--primary) !important;
+  opacity: 0.8;
+}
+
+.hover\:text-primary-900:hover {
+  color: var(--primary) !important;
+  opacity: 0.9;
+}
+
+
+
+
+/* end */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.menu-items.active {
+  /* background: #7c3aed; */
+  background: var(--primary);
+  color: #fff;
+}
+
+.react-calendar {
+  border: 0px solid !important;
+}
+
+.react-calendar__tile--active {
+  background: var(--primary) !important;
+}
+
+
+/* Add the following CSS to your global styles or main CSS file */
+
+/* Thin scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  /* Light primary color */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f2f2f2;
+  /* Background color */
+}
+
+/* For Firefox */
+/* * {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) #f2f2f2;
+} */
+
+::-moz-scrollbar-thumb {
+  background-color: var(--primary);
+  /* Light primary color */
+  border-radius: 4px;
+}
+
+::-moz-scrollbar-track {
+  background-color: #f2f2f2;
+  /* Background color */
+}
+
+.react-calendar {
+  width: 100% !important;
+}
+
+@media (max-width: 1021px) {
+  .custom_bredcrumb {
+    visibility: visible !important;
+    display: flex !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .dark\:text-white {
+    color: #000000 !important;
+  }
+
+  .dark\:bg-gray-700 {
+    background-color: #fff !important
+  }
+
+  .dark\:text-zinc-100 {
+    color: rgb(31 41 55 / var(--tw-text-opacity)) !important;
+  }
+
+  .dark\:text-gray-100 {
+    color: rgb(107 114 128 / var(--tw-text-opacity)) !important;
+  }
+
+  .dark\:text-white\/70 {
+    color: rgb(107 114 128/var(--tw-text-opacity)) !important;
+  }
+}
+
+.sticky--remove table thead {
+  position: unset;
+}
+
+.icon-trash {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+
+.icon-trash .trash-lid {
+  width: 62%;
+  height: 10%;
+  position: absolute;
+  left: 50%;
+  margin-left: -31%;
+  top: 10.5%;
+  background-color: #000;
+  border-top-left-radius: 80%;
+  border-top-right-radius: 80%;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+
+.icon-trash .trash-lid:after {
+  content: "";
+  width: 26%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -13%;
+  margin-top: -10%;
+  background-color: inherit;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  -webkit-transform: rotate(-1deg);
+  -moz-transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+}
+
+.icon-trash .trash-container {
+  width: 56%;
+  height: 65%;
+  position: absolute;
+  left: 50%;
+  margin-left: -28%;
+  bottom: 10%;
+  background-color: #000;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+}
+
+.icon-trash .trash-line-1 {
+  width: 4%;
+  height: 50%;
+  position: absolute;
+  left: 38%;
+  margin-left: -2%;
+  bottom: 17%;
+  background-color: #fff;
+}
+
+.icon-trash .trash-line-2 {
+  width: 4%;
+  height: 50%;
+  position: absolute;
+  left: 50%;
+  margin-left: -2%;
+  bottom: 17%;
+  background-color: #fff;
+}
+
+.icon-trash .trash-line-3 {
+  width: 4%;
+  height: 50%;
+  position: absolute;
+  left: 62%;
+  margin-left: -2%;
+  bottom: 17%;
+  background-color: #fff;
+}

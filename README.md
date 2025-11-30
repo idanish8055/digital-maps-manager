@@ -1,4 +1,4 @@
 # maps-custom-app
-Maps of the past custom app for digital orders.
+Maps of the past app for digital orders.
 
 Follow the steps below for running this project

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #9f262d;
+  --white-linen: #F8F1E8;
+  --lightAlmond:#f4eadc;
+}
+
+input, textarea, select {
+  border-color: #525252;
+  background-color: #dfd8cf;
+}
